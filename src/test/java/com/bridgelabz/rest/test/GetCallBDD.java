@@ -4,6 +4,11 @@ import static io.restassured.RestAssured.given;
 
 import org.testng.annotations.Test;
 
+/**
+ * @author Sachin Barpete
+ * @purpose Implemented test case for Get call
+ * @date 25/12/2019
+ */
 public class GetCallBDD {
 
 	@Test

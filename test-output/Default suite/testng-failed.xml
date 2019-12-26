@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bridgelabz.rest.test.GetCallBDD">
+      <class name="com.bridgelabz.rest.oauthtest.TwitterAPI">
         <methods>
-          <include name="testGetResponse"/>
+          <include name="postTweet"/>
         </methods>
-      </class> <!-- com.bridgelabz.rest.test.GetCallBDD -->
+      </class> <!-- com.bridgelabz.rest.oauthtest.TwitterAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
